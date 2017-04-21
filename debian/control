@@ -1,0 +1,12 @@
+Source: openshift-cli
+Section: utils
+Priority: extra
+Maintainer: Nick <nick@nine.ch>
+Build-Depends: bash, jq
+Standards-Version: 3.9.3
+
+Package: openshift-cli
+Architecture: amd64
+Depends: ${misc:Depends}
+Description: OpenShift CLI utility
+ OpenShift CLI utility
