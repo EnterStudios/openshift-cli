@@ -1,0 +1,5 @@
+download/
+debian/openshift-cli
+debian/openshift-cli.substvars
+debian/files
+debian/openshift-cli.debhelper.log
