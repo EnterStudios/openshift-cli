@@ -2,7 +2,7 @@ Source: openshift-cli
 Section: utils
 Priority: extra
 Maintainer: Nick <nick@nine.ch>
-Build-Depends: jq, debhelper (>= 8.0.0)
+Build-Depends: jq, debhelper (>= 8.0.0), wget
 Standards-Version: 3.9.5
 
 Package: openshift-cli
