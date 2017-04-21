@@ -2,9 +2,10 @@
 all: download
 
 download:
-	download.sh
+	/bin/bash download.sh
 
 install:
+	mkdir -p $(DESTDIR)/usr/bin
 	cp download/oc $(DESTDIR)/usr/bin
 
 clean:

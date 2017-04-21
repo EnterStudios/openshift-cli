@@ -2,11 +2,12 @@ Source: openshift-cli
 Section: utils
 Priority: extra
 Maintainer: Nick <nick@nine.ch>
-Build-Depends: bash, jq
-Standards-Version: 3.9.3
+Build-Depends: jq, debhelper (>= 8.0.0)
+Standards-Version: 3.9.5
 
 Package: openshift-cli
 Architecture: amd64
 Depends: ${misc:Depends}
 Description: OpenShift CLI utility
- OpenShift CLI utility
+ provides the OpenShift CLI utility which
+ you can use to control an OpenShift v3 cluster
